@@ -196,6 +196,7 @@ a.navbar-brand {
   -ms-background-size: cover;
   min-height: 800px;
 }
+
 .rslides {
   position: relative;
   list-style: none;
@@ -710,6 +711,17 @@ span.banner-icon {
 /*--// Services-- */
 /*--portfolio--*/
 
+.header-outs.gallery {
+  background: none;
+  min-height: 12rem;
+}
+.portfolio .title{
+  color: "#fafafa";
+  font-family: "Amita", cursive;
+}
+.gallery-body{
+  background: rgba(146, 75, 50);
+}
 .agileits-title h3 {
   font-size: 26px;
   color: #000;
@@ -1569,7 +1581,7 @@ footer p a:hover {
     width: 96%;
     z-index: 999;
     padding: 0em 0;
-    background: ##ff661e;
+    background: #171616;
     z-index: 9999;
   }
 
