@@ -825,6 +825,32 @@ h2.resp-accordion {
 /*--//portfolio--*/
 /*-- testimonials --*/
 
+.regular-clients{
+  padding: 9rem 5px;
+}
+
+.client-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.client-list figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.client-list img{
+  border-radius: 50%;
+  margin: 2rem 0;
+}
+
+.client-list figcaption{
+  font-family: "Mali", cursive;
+  font-size: 20px;
+  color: #000;
+}
+
 /* Carousel */
 
 /*#quote-carousel {
@@ -1523,6 +1549,10 @@ footer p a:hover {
   }
   .arrow span.dog-arrow {
     font-size: 17px;
+  }
+
+  .client-list{
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {
