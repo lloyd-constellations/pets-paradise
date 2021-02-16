@@ -715,6 +715,10 @@ span.banner-icon {
   background: none;
   min-height: 12rem;
 }
+.header-outs.contact {
+  background: rgba(146, 75, 50);
+  min-height: 12rem;
+}
 .portfolio .title{
   color: "#fafafa";
   font-family: "Amita", cursive;
@@ -1096,13 +1100,23 @@ blockquote {
 
 .sub-para {
   margin-top: 19px;
+  display: flex;
+  justify-content: center;
 }
-.sub-para p {
-  font-size: 14px;
-  letter-spacing: 1.5px;
-  color: #000;
+.sub-para a i {
+  font-size: 40px;
+  letter-spacing: 30px;
+  color: rgba(146, 75, 50);
   line-height: 27px;
 }
+
+.sub-para a i:hover{
+  font-size: 40px;
+  letter-spacing: 30px;
+  color: #ff661e;
+  line-height: 27px;
+}
+
 footer {
   text-align: center;
   background: #000;
@@ -1198,6 +1212,7 @@ footer p a:hover {
   .title {
     font-size: 44px;
     margin-bottom: 24px;
+    font-family: "Amita", cursive;
   }
   .about,
   .services,
