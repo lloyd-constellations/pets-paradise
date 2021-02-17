@@ -197,6 +197,12 @@ a.navbar-brand {
   min-height: 800px;
 }
 
+.header-outs.about{
+  background: url(../images/about-bg-dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .rslides {
   position: relative;
   list-style: none;
@@ -653,10 +659,43 @@ h4.modal-title {
 }
 
 /*--// about-- */
+
+/* Team */
+.team{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 70vh;
+  max-width: 95vw;
+  margin: auto;
+}
+
+.team img{
+  width: 60vw;
+}
+
+.team .title{
+  color: #ff661e;
+}
+
+
 /*--Services-- */
 .services {
   background: url(../images/s1.jpg) no-repeat center;
   background-size: cover;
+}
+
+.services.about{
+  background: rgba(146, 75, 50)
+}
+
+.fa-hourglass-start, .fa-heart{
+  font-size: 40px;
+  color: #ff661e
+}
+
+.fa-heart{
+  color: #f10000
 }
 
 .services h3{
@@ -925,7 +964,7 @@ padding:0px 11px;*/
   -ms-border-radius: 50%;
 }
 .carousel-inner {
-  min-height: 300px;
+  /* min-height: 300px; */
 }
 
 .item blockquote {
@@ -1122,18 +1161,28 @@ blockquote {
   font-size: 19px;
   color: #000;
   padding-top: 7px;
+  margin-bottom: 3rem;
+  font-family: "Mali", cursive;
+}
+
+.sub-para-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .sub-para {
   margin-top: 19px;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 .sub-para a i {
-  font-size: 40px;
-  letter-spacing: 30px;
+  font-size: 30px;
   color: rgba(146, 75, 50);
   line-height: 27px;
+  margin: 0px 5px;
 }
 
 .sub-para a i:hover{
@@ -1141,6 +1190,10 @@ blockquote {
   letter-spacing: 30px;
   color: #ff661e;
   line-height: 27px;
+}
+
+.sub-para p {
+  margin: auto;
 }
 
 footer {
@@ -1662,6 +1715,14 @@ footer p a:hover {
   }
 }
 @media (max-width: 736px) {
+  .team{
+    flex-direction: column;
+  }
+
+  .team img{
+    width: 80vw;
+  }
+
   .copyright {
     margin: 1.2em 0em;
   }
