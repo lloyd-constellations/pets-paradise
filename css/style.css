@@ -678,6 +678,54 @@ h4.modal-title {
   color: #ff661e;
 }
 
+/* Opportunities */
+.opportunities{
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2rem 0 auto;
+  padding: 5rem 0;
+  background: #ff661e;
+}
+
+.opportunities p{
+  color: #fafafa;
+  margin: 2rem 0;
+}
+
+.opportunities h3{
+  color: #fafafa;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.opportunities-content {
+  max-width: 75vw;
+  background: rgba(146, 75, 50);
+  padding: 7rem;
+  margin: 2rem auto;
+  color: #fafafa
+}
+
+.opportunities-content ul li{
+  margin-left: 4rem;
+}
+
+.opportunities-content ul{
+  margin: 2rem 0;
+}
+
+.opportunities-content ul span{
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.send-email{
+  font-size: 25px;
+  font-family: "Mali", cursive;
+}
 
 /*--Services-- */
 .services {
@@ -1852,6 +1900,16 @@ footer p a:hover {
   }
 }
 @media (max-width: 568px) {
+
+  .opportunities h3{
+    font-size: 3rem;
+  }
+  .opportunities-content{
+    padding: 2rem;
+  }
+  .send-email{
+    font-size: 16px;
+  }
   .slider-info h4 {
     letter-spacing: 1px;
   }
