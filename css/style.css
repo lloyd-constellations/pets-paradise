@@ -203,6 +203,12 @@ a.navbar-brand {
   background-repeat: no-repeat;
 }
 
+.header-outs.services{
+  background: url(../images/services-bg-dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .rslides {
   position: relative;
   list-style: none;
@@ -728,9 +734,101 @@ h4.modal-title {
 }
 
 /*--Services-- */
+.services-intro{
+  background: rgba(146, 75, 50);
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 0 9vw;
+}
+
+.book-meet{
+  flex: 1;
+}
+
+.book-meet button{
+  padding: 1rem;
+  background: #ff661e;
+  font-size: 20px;
+  font-family: "Mali", cursive;
+  border: none;
+  outline: none;
+  color: #fafafa;
+  border-radius: 5px;
+}
+
+.intro-content{
+  flex: 3;
+}
+
+.services-intro p{
+  color: #fafafa;
+  font-size: 20px;
+}
+
 .services {
   background: url(../images/s1.jpg) no-repeat center;
   background-size: cover;
+}
+
+/* services-pages */
+
+.services-page {
+  padding: 3rem 0;
+  min-height: 100vh;
+  max-width: 70vw;
+  margin: auto;
+}
+
+.has-margin-right {
+  margin: 0 3rem 0 0;
+}
+
+.services-page-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 0 1.45rem 7rem 1.45rem;
+}
+
+.services-page-img {
+  flex: 1;
+}
+
+.services-page-img img{
+  width: 80%
+}
+
+.services-page-description {
+  flex: 1;
+}
+
+.title-heading{
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.title-heading h2{
+  font-family: "Amita", cursive;
+  margin-bottom: .5rem;
+}
+
+.services-page-description h2 {
+  font-size: 2rem;
+  font-family: "Mali", cursive;
+  margin-bottom: 2rem;
+  background: linear-gradient(
+    to right,
+    rgba(249, 105, 14, 1) 0%,
+    rgba(102, 51, 153, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.services-page-description p {
+  font-size: 1.4rem;
+  color: #000000
 }
 
 .services.about{
