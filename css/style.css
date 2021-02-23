@@ -641,6 +641,9 @@ h4.modal-title {
 /*--// modal-- */
 /*--//banner-- */
 /*--About--*/
+.banner-agileits-btm{
+  border-radius: 30px;
+}
 
 .about-top-grid h2 {
   font-size: 39px;
@@ -906,6 +909,14 @@ h4.modal-title {
 .services h3{
   font-family: 'RocknRoll One', sans-serif;
   color: black;
+  margin-bottom: 7rem;
+}
+
+.dog-service img{
+  background: #ff661e;
+  padding: 2rem;
+  border-radius: 30px;
+  
 }
 
 .services .its-banner-grid h4{
