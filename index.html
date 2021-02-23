@@ -39,6 +39,8 @@
     <!--//stylesheets-->
     <link rel="stylesheet" type="text/css" href="css/jquery.easy-gallery.css" />
     <!-- For-gallery-CSS -->
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="css/popuo-box.css"
       rel="stylesheet"
@@ -104,7 +106,7 @@
           <ul class="rslides" id="slider4">
             <li>
               <div class="slider-img">
-                <div class="container">
+                <div class="container-intro">
                   <div class="slider-info">
                     <h4>
                       <span class="home-banner">W</span>e
@@ -126,6 +128,9 @@
                       <a href="#about" class="scroll">Learn More</a>
                     </div>
                   </div>
+                  <div class="intro-img">
+                    <img src="images/b13.png" alt="" />
+                  </div>
                 </div>
               </div>
             </li>
@@ -140,54 +145,58 @@
     <div class="about" id="about">
       <div class="container">
         <div class="about-top-grids">
-          <div class="col-md-7 about-top-grid">
-            <h2>WELCOME TO PETSPARADISE</h2>
-            <div class="arrow">
-              <ul>
-                <li>
-                  <span class="fa fa-paw dog-arrow" aria-hidden="true"></span>
-                  <p>A band of pet lovers</p>
-                </li>
-                <li>
-                  <span class="fa fa-paw dog-arrow" aria-hidden="true"></span>
-                  <p>Best care for your pet</p>
-                </li>
-                <li>
-                  <span class="fa fa-paw dog-arrow" aria-hidden="true"></span>
-                  <p>Safe, fun and caring environment in your absence</p>
-                </li>
-              </ul>
-            </div>
-            <div class="about-para">
-              <p>
-                Pets Paradise is a pet grooming and pet boarding company based
-                on Elijah Wambugu Close. We are a band of pet lovers dedicated
-                to providing your pet with a safe, fun and caring environment in
-                your absence. We believe in a personalized approach to pet care
-                ensuring your peace-of-mind knowing your pet is safe, happy and
-                loved.
-              </p>
+          <div data-aos="fade-right" data-aos-duration="2000">
+            <div class="col-md-7 about-top-grid">
+              <h2>WELCOME TO PETSPARADISE</h2>
+              <div class="arrow">
+                <ul>
+                  <li>
+                    <span class="fa fa-paw dog-arrow" aria-hidden="true"></span>
+                    <p>A band of pet lovers</p>
+                  </li>
+                  <li>
+                    <span class="fa fa-paw dog-arrow" aria-hidden="true"></span>
+                    <p>Best care for your pet</p>
+                  </li>
+                  <li>
+                    <span class="fa fa-paw dog-arrow" aria-hidden="true"></span>
+                    <p>Safe, fun and caring environment in your absence</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="about-para">
+                <p>
+                  Pets Paradise is a pet grooming and pet boarding company based
+                  on Elijah Wambugu Close. We are a band of pet lovers dedicated
+                  to providing your pet with a safe, fun and caring environment
+                  in your absence. We believe in a personalized approach to pet
+                  care ensuring your peace-of-mind knowing your pet is safe,
+                  happy and loved.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col-md-5 pope banner-agileits-btm" id="video">
-            <div class="button">
-              <a href="#small-dialog1" class="play-icon popup-with-zoom-anim"
-                ><span class="fa fa-play-circle" aria-hidden="true"></span
-              ></a>
-            </div>
-            <div
-              id="small-dialog1"
-              class="mfp-hide w3ls_small_dialog wthree_pop"
-            >
-              <div class="agileits_modal_body">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/2pbtN4u9bro?start=449"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
+          <div data-aos="fade-left" data-aos-duration="3000">
+            <div class="col-md-5 pope banner-agileits-btm" id="video">
+              <div class="button">
+                <a href="#small-dialog1" class="play-icon popup-with-zoom-anim"
+                  ><span class="fa fa-play-circle" aria-hidden="true"></span
+                ></a>
+              </div>
+              <div
+                id="small-dialog1"
+                class="mfp-hide w3ls_small_dialog wthree_pop"
+              >
+                <div class="agileits_modal_body">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/2pbtN4u9bro?start=449"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>
@@ -199,51 +208,59 @@
     <!--services-->
     <div class="services" id="services">
       <div class="container">
-        <h3 class="title clr">Services</h3>
+        <div data-aos="flip-left" data-aos-duration="2000">
+          <h3 class="title clr">Services</h3>
+        </div>
 
         <div class="banner-bottom-girds">
-          <div class="col-md-4 col-sm-6 col-xs-6 its-banner-grid">
-            <div class="left-icon-grid">
-              <img src="images/grooming-icon.jpg" alt="dog grooming" />
-            </div>
-            <div class="white-shadow">
-              <h4>DOG GROOMING</h4>
-              <p>
-                Our grooming package consists of a spa bath, nail clipping, coat
-                trimming, sanitary trim, brush out program, ear and eye
-                cleansing. If necessary, we also give a specialized flea bath.
-              </p>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-6 its-banner-grid">
-            <div class="left-icon-grid">
-              <img src="images/boarding-icon.png" alt="dog boarding" />
-            </div>
-            <div class="white-shadow">
-              <h4>DOG BOARDING</h4>
-              <p>
-                We are committed to ensuring that every pet feels relaxed and
-                secure while in our care. Because no dog is quite like yours, we
-                offer a la carte services to add to our standard boarding
-                package for a fully customized stay.
-              </p>
-              <div class="clearfix"></div>
+          <div data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-md-4 col-sm-6 col-xs-6 its-banner-grid">
+              <div class="left-icon-grid">
+                <img src="images/grooming-icon.jpg" alt="dog grooming" />
+              </div>
+              <div class="white-shadow">
+                <h4>DOG GROOMING</h4>
+                <p>
+                  Our grooming package consists of a spa bath, nail clipping,
+                  coat trimming, sanitary trim, brush out program, ear and eye
+                  cleansing. If necessary, we also give a specialized flea bath.
+                </p>
+                <div class="clearfix"></div>
+              </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-6 its-banner-grid">
-            <div class="left-icon-grid">
-              <img src="images/daycare-icon.jpg" alt="dog daycare" />
+          <div data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-md-4 col-sm-6 col-xs-6 its-banner-grid">
+              <div class="left-icon-grid">
+                <img src="images/boarding-icon.png" alt="dog boarding" />
+              </div>
+              <div class="white-shadow">
+                <h4>DOG BOARDING</h4>
+                <p>
+                  We are committed to ensuring that every pet feels relaxed and
+                  secure while in our care. Because no dog is quite like yours, we
+                  offer a la carte services to add to our standard boarding
+                  package for a fully customized stay.
+                </p>
+                <div class="clearfix"></div>
+              </div>
             </div>
-            <div class="white-shadow">
-              <h4>DOG DAYCARE</h4>
-              <p>
-                Our Dog Daycare is tailor-made to give your dog the best
-                experience together with some socialization training. Every
-                session is supervised by our trained Pets Paradise care givers
-                and every dog is taken care of accordingly.
-              </p>
-              <div class="clearfix"></div>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-md-4 col-sm-6 col-xs-6 its-banner-grid">
+              <div class="left-icon-grid">
+                <img src="images/daycare-icon.jpg" alt="dog daycare" />
+              </div>
+              <div class="white-shadow">
+                <h4>DOG DAYCARE</h4>
+                <p>
+                  Our Dog Daycare is tailor-made to give your dog the best
+                  experience together with some socialization training. Every
+                  session is supervised by our trained Pets Paradise care givers
+                  and every dog is taken care of accordingly.
+                </p>
+                <div class="clearfix"></div>
+              </div>
             </div>
           </div>
           <div class="clearfix"></div>
@@ -496,6 +513,10 @@
           easingType: "easeOutQuart",
         });
       });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
     <a href="#" id="toTop" style="display: block">
       <span id="toTopHover" style="opacity: 1"> </span
