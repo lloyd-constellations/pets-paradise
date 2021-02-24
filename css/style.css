@@ -991,7 +991,7 @@ span.banner-icon {
 }
 .header-outs.contact {
   background: rgba(146, 75, 50);
-  min-height: 2rem;
+  min-height: 15vh;
 }
 .portfolio .title{
   color: "#fafafa";
