@@ -433,7 +433,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 7px;
   letter-spacing: 2px;
   background-color:#fafafa;
   outline: none;
@@ -640,6 +640,13 @@ h4.modal-title {
 /*--// modal-- */
 /*--//banner-- */
 /*--About--*/
+.about{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .banner-agileits-btm{
   border-radius: 30px;
 }
@@ -1609,7 +1616,7 @@ footer p a:hover {
     height: 360px;
   }
   .outs_more-buttn a {
-    padding: 7px 25px;
+    padding: 15px 40px;
   }
 }
 @media (max-width: 1050px) {
@@ -1865,6 +1872,7 @@ footer p a:hover {
   }
   .about-top-grid h2 {
     font-size: 32px;
+    margin-bottom: 4rem;
   }
   .arrow {
     margin: 0.9em 0em 0.2em;
@@ -1908,7 +1916,7 @@ footer p a:hover {
     padding: 5px 1px;
   }
   .outs_more-buttn a {
-    padding: 6px 24px;
+    padding: 15px 40px;
   }
 }
 @media (max-width: 767px) {
@@ -2117,7 +2125,7 @@ footer p a:hover {
     padding: 0px 35px;
   }
   .outs_more-buttn a {
-    padding: 5px 23px;
+    padding: 15px 40px;
   }
 }
 @media (max-width: 480px) {
@@ -2291,7 +2299,7 @@ footer p a:hover {
   }
   .outs_more-buttn a {
     font-size: 12px;
-    padding: 5px 20px;
+    padding: 15px 40px;
   }
   .callbacks_nav {
     top: 90%;
@@ -2378,7 +2386,7 @@ footer p a:hover {
     letter-spacing: 0px;
   }
   .outs_more-buttn a {
-    padding: 5px 17px;
+    padding: 15px 40px;
   }
   .arrow ul li p,
   .about-para p {
