@@ -909,7 +909,7 @@ h4.modal-title {
 
 .fa-hourglass-start, .fa-heart{
   font-size: 40px;
-  color: #ff661e
+  color: #ffffff
 }
 
 .fa-heart{
@@ -935,6 +935,14 @@ h4.modal-title {
 
 .services .its-banner-grid p{
   color: black;
+}
+
+.about .its-banner-grid h4{
+  color:  #ff661e;
+}
+
+.about .its-banner-grid p{
+  color: #fafafa;
 }
 
 span.banner-icon {
