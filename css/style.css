@@ -868,7 +868,8 @@ h4.modal-title {
 }
 
 .services-page-img img{
-  width: 80%
+  width: 80%;
+  border-radius: 20px;
 }
 
 .services-page-description {
@@ -1974,10 +1975,32 @@ footer p a:hover {
   }
 }
 @media (max-width: 736px) {
+  .services-intro{
+    flex-direction: column-reverse;
+  }
+  .book-meet button{
+    margin: 40px 0;
+  }
+  .services-page-item{
+    flex-direction: column;
+    margin: 0 0 7rem 0;
+    text-align: center;
+  }
+  .services-page-item.flex-reverse{
+    flex-direction: column-reverse;
+  }
+  .services-page-img img{
+    margin-bottom: 2rem;
+  }
+  .has-margin-right{
+    margin:0;
+  }
+
+
+
   .team{
     flex-direction: column;
   }
-
   .team img{
     width: 80vw;
   }
