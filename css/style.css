@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mali&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 html,
 body {
@@ -7,7 +6,7 @@ body {
   margin: 0;
   background: #fff;
   letter-spacing: 1px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body a {
@@ -37,7 +36,7 @@ input[type="submit"] {
   -o-transition: 0.5s all;
   -ms-transition: 0.5s all;
   letter-spacing: 1px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 select,
 input[type="email"],
@@ -46,7 +45,7 @@ input[type="password"],
 input[type="button"],
 input[type="submit"],
 textarea {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -62,7 +61,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -70,7 +69,7 @@ p {
   margin: 0;
   padding: 0;
   letter-spacing: 1px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #777;
 }
 
@@ -422,10 +421,10 @@ a {
   color: #fff;
   font-size: 5.5em;
   letter-spacing: 3px;
-  font-family: "RocknRoll One", cursive;
+  font-family: "Poppins", sans-serif;
 }
 .slider-info p {
-  font-family: "Mali", cursive;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   letter-spacing: 3px;
   padding: 16px 0px;
@@ -659,7 +658,7 @@ h4.modal-title {
   font-size: 39px;
   letter-spacing: 1px;
   color: #000;
-  font-family: 'RocknRoll One', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .about-para p {
   font-size: 15px;
@@ -797,7 +796,7 @@ h4.modal-title {
 
 .send-email{
   font-size: 25px;
-  font-family: "Mali", cursive;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--Services-- */
@@ -817,7 +816,7 @@ h4.modal-title {
   padding: 1rem;
   background: #ff661e;
   font-size: 20px;
-  font-family: "Mali", cursive;
+  font-family: "Poppins", sans-serif;
   border: none;
   outline: none;
   color: #fafafa;
@@ -839,7 +838,7 @@ h4.modal-title {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: rgb(241, 241, 241);
+  background: rgb(248, 248, 248);
 
 }
 
@@ -882,13 +881,13 @@ h4.modal-title {
 }
 
 .title-heading h2{
-  font-family: 'RocknRoll One', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: .5rem;
 }
 
 .services-page-description h2 {
   font-size: 2rem;
-  font-family: "Mali", cursive;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 2rem;
   background: linear-gradient(
     to right,
@@ -918,7 +917,7 @@ h4.modal-title {
 }
 
 .services h3{
-  font-family: 'RocknRoll One', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: black;
   margin-bottom: 7rem;
 }
@@ -932,6 +931,7 @@ h4.modal-title {
 
 .services .its-banner-grid h4{
   color: rgba(146, 75, 50);
+  margin: 2rem 0;
 }
 
 .services .its-banner-grid p{
@@ -961,7 +961,7 @@ span.banner-icon {
   color: rgb(255, 255, 255);
   text-align: center;
   letter-spacing: 2px;
-  font-family: "Mali", cursive;
+  font-family: "Poppins", sans-serif;
 }
 
 .its-banner-grid p {
@@ -1004,7 +1004,7 @@ span.banner-icon {
 }
 .portfolio .title{
   color: "#fafafa";
-  font-family: 'RocknRoll One', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .gallery-body{
   background: rgba(146, 75, 50);
@@ -1129,7 +1129,7 @@ h2.resp-accordion {
 }
 
 .client-list figcaption{
-  font-family: "Mali", cursive;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: #000;
 }
@@ -1208,7 +1208,12 @@ padding:0px 11px;*/
   -ms-border-radius: 50%;
 }
 .carousel-inner {
-  /* min-height: 300px; */
+  margin: auto;
+  height: 250px;
+  width: 65vw;
+  padding: 3rem;
+  box-shadow:0 0 18px 0 rgb(0 0 0 / 13%);
+  border-radius: 7px;
 }
 
 .item blockquote {
@@ -1406,7 +1411,7 @@ blockquote {
   color: #000;
   padding-top: 7px;
   margin-bottom: 3rem;
-  font-family: "Mali", cursive;
+  font-family: "Poppins", sans-serif;
 }
 
 .sub-para-flex{
@@ -1423,10 +1428,10 @@ blockquote {
   margin-bottom: 3rem;
 }
 .sub-para a i {
-  font-size: 30px;
+  font-size: 25px;
   color: rgba(146, 75, 50);
   line-height: 27px;
-  margin: 0px 5px;
+  margin: 0px 1.2rem;
 }
 
 .sub-para a i:hover{
@@ -1495,7 +1500,7 @@ footer p a:hover {
     min-height: 688px;
   }
   .slider-info h4 {
-    font-size: 5em;
+    font-size: 4em;
   }
   .slider-info {
     margin-top: 15em;
@@ -1527,7 +1532,7 @@ footer p a:hover {
     margin-top: 11em;
   }
   .slider-info h4 {
-    font-size: 4.5em;
+    font-size: 3.5em;
   }
   .slider-info p {
     font-size: 18px;
@@ -1573,7 +1578,7 @@ footer p a:hover {
     margin: 0 6px;
   }
   .slider-info h4 {
-    font-size: 3.7em;
+    font-size: 3.0em;
   }
   .outs_more-buttn a {
     font-size: 13px;
@@ -1784,7 +1789,7 @@ footer p a:hover {
     margin-top: 10em;
   }
   .slider-info h4 {
-    font-size: 3.2em;
+    font-size: 3.0em;
   }
   .map-grid iframe {
     height: 345px;
