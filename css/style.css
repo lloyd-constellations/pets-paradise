@@ -924,7 +924,7 @@ h4.modal-title {
 .services h3{
   font-family: 'Poppins', sans-serif;
   color: black;
-  margin-bottom: 7rem;
+  margin-bottom: 4rem;
 }
 
 .dog-service img{
@@ -1215,9 +1215,10 @@ padding:0px 11px;*/
   box-shadow:0 0 18px 0 rgb(0 0 0 / 13%);
   padding: 2rem;
   border-radius: 7px;
+  width: 70vw;
+  margin: auto;
 }
 .carousel-inner {
-  margin: auto;
   height: 250px;
 }
 .item blockquote {
