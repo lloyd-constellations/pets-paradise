@@ -143,8 +143,8 @@ ul {
   justify-content: center;
   background: linear-gradient(
     135deg,
-    rgba(146, 75, 50, 0.8) 0%,
-    rgba(126, 74, 55, 0.8) 100%
+    rgba(146, 75, 50, 0.9) 0%,
+    rgba(146, 75, 50, 0.7) 100%
   ),
   url("../images/dog-walking.svg") center no-repeat;
   background-size: contain;
@@ -443,7 +443,7 @@ a {
   display: inline-block;
   border-radius: 7px;
   letter-spacing: 2px;
-  background-color:#fafafa;
+  background-color:rgba(255, 255, 255, 0.7);
   outline: none;
   padding: 20px 50px;
 }
@@ -930,8 +930,7 @@ h4.modal-title {
 .dog-service img{
   background: #ff661e;
   padding: 2rem;
-  border-radius: 30px;
-  
+  border-radius: 30px;  
 }
 
 .services .its-banner-grid h4{
@@ -1212,13 +1211,14 @@ padding:0px 11px;*/
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
 }
+.carousel.slide{
+  box-shadow:0 0 18px 0 rgb(0 0 0 / 13%);
+  padding: 2rem;
+  border-radius: 7px;
+}
 .carousel-inner {
   margin: auto;
   height: 250px;
-  width: 65vw;
-  padding: 3rem;
-  box-shadow:0 0 18px 0 rgb(0 0 0 / 13%);
-  border-radius: 7px;
 }
 .item blockquote {
   border-left: none;
@@ -1726,6 +1726,9 @@ footer p a:hover {
   }
 }
 @media (max-width: 991px) {
+  .dog-service img{
+    margin-top: 6rem;
+  }
   h1 a.navbar-brand {
     letter-spacing: 1px;
   }
