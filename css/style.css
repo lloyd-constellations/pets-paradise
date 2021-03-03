@@ -2057,6 +2057,9 @@ footer p a:hover {
   }
 }
 @media (max-width: 600px) {
+  .navbar-brand img {
+    width: 50px;
+  }
   .header-outs {
     min-height: 450px;
   }
