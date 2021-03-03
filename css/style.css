@@ -1195,7 +1195,7 @@ padding:0px 11px;*/
   margin: auto;
 }
 .carousel-inner {
-  height: 250px;
+  min-height: 250px;
 }
 .item blockquote {
   border-left: none;
