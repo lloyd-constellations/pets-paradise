@@ -384,41 +384,17 @@ a {
   color: #ffffff;
   z-index: 99;
   text-align: center;
-  animation: intro-anime 2s ease-in-out;
   flex: 2;
   padding: 0px 2rem;
 }
 
 .intro-img{
-  animation: img-anime 2s ease-in-out;
   flex: 1;
 }
 
 .intro-img img{
   margin-left: 9vw;
   width: auto;
-}
-
-@keyframes img-anime {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
-@keyframes intro-anime {
-  from {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
 }
 
 .slider-info h4 {
