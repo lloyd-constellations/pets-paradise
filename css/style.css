@@ -236,15 +236,19 @@ a.navbar-brand {
   background-position: center;
 }
 .slide-two{
-  background: url(../images/grroming-bg.png);
+  background: url(../images/grooming-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .slide-three{
-  background: url(../images/boarding-bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  /* background: url(../images/boarding-bg.png); */
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(../images/boarding.jpg) center no-repeat;
+    background-size: cover;
 }
 
 .mySlides .container{
