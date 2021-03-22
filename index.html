@@ -100,48 +100,51 @@
 
         <div class="clearfix"></div>
       </div>
-
-      <!-- Slideshow 4 -->
-      <div class="slider">
-        <div class="callbacks_container">
-          <ul class="rslides" id="slider4">
-            <li>
-              <div class="slider-img">
-                <div class="container-intro">
-                  <div data-aos="fade-up" data-aos-duration="2000">
-                    <div class="slider-info">
-                      <h4>
-                        <span class="home-banner">W</span>e
-                        <span class="home-banner">L</span>ove
-                        <span class="home-banner">T</span>hem <span>A</span>s
-                        <span class="home-banner">Y</span>ou
-                        <span class="home-banner">D</span>o
-                        <span
-                          class="fa fa-paw paw-banner"
-                          aria-hidden="true"
-                        ></span
-                        ><span
-                          class="fa fa-paw paw-banner"
-                          aria-hidden="true"
-                        ></span>
-                      </h4>
-                      <p>DOG GROOMING | DOG BOARDING | DOG DAYCARE</p>
-                      <div class="outs_more-buttn">
-                        <a href="contact.html">BOOK A MEET</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div data-aos="fade-up" data-aos-duration="2000">
-                    <div class="intro-img">
-                      <img src="images/b13.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
+      <div class="slideshow-container">
+        <div class="mySlides slide-one animated">
+          <div class="container">
+            <div class="slider-info">
+              <h4>
+                <span class="home-banner">W</span>e
+                <span class="home-banner">A</span>re
+                <span class="home-banner">F</span>un
+                <span class="home-banner">A</span>nd
+                <span class="home-banner">F</span>riendly
+                <span class="fa fa-paw paw-banner" aria-hidden="true"></span
+                ><span class="fa fa-paw paw-banner" aria-hidden="true"></span>
+              </h4>
+            </div>
+          </div>
         </div>
-        <div class="clearfix"></div>
+        <div class="mySlides slide-two animated">
+          <div class="container">
+            <div class="slider-info">
+              <h4>
+                <span class="home-banner">R</span>eliable
+                <span class="home-banner">A</span>nd
+                <span class="home-banner">G</span>uaranteed
+                <span class="home-banner">Q</span>uality
+                <span class="home-banner">S</span>ervices
+                <span class="fa fa-paw paw-banner" aria-hidden="true"></span
+                ><span class="fa fa-paw paw-banner" aria-hidden="true"></span>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides slide-three animated">
+          <div class="container">
+            <div class="slider-info">
+              <h4>
+                <span class="home-banner">F</span>un,
+                <span class="home-banner">F</span>riendly
+                <span class="home-banner">A</span>nd
+                <span class="home-banner">S</span>afe
+                <span class="fa fa-paw paw-banner" aria-hidden="true"></span
+                ><span class="fa fa-paw paw-banner" aria-hidden="true"></span>
+              </h4>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- //banner -->
     </div>
@@ -434,7 +437,28 @@
         </a>
       </p>
     </footer>
+    <script>
+      var slideIndex = 1;
+      function showSlides() {
+        var slides = document.getElementsByClassName("mySlides");
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        if (slideIndex < 1) {
+          slideIndex = slides.length;
+        }
+        for (var i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
 
+        setTimeout(function () {
+          slideIndex++;
+          showSlides();
+        }, 5000);
+      }
+      window.onload = showSlides;
+    </script>
     <!--js working-->
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
     <script src="js/bootstrap.js"></script>
