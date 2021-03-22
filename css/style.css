@@ -233,6 +233,7 @@ a.navbar-brand {
   background: url(../images/daycare-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .slide-two{
   background: url(../images/grroming-bg.png);
@@ -243,6 +244,7 @@ a.navbar-brand {
   background: url(../images/boarding-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .mySlides .container{
