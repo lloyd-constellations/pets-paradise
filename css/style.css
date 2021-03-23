@@ -228,34 +228,33 @@ a.navbar-brand {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.slide-one{
+.slide-one {
   background: url(../images/daycare-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-.slide-two{
+.slide-two {
   background: url(../images/grooming-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.slide-three{
+.slide-three {
   /* background: url(../images/boarding-bg.png); */
   background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.4) 0%,
-    rgba(0, 0, 0, 0.4) 100%
+      135deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
     ),
     url(../images/boarding.jpg) center no-repeat;
-    background-size: cover;
+  background-size: cover;
 }
 
-.mySlides .container{
+.mySlides .container {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .mySlides img {
