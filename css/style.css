@@ -740,6 +740,7 @@ h4.modal-title {
 }
 
 .about-top-grid h2 {
+  font-weight: 600;
   font-size: 39px;
   letter-spacing: 1px;
   color: #000;
@@ -923,7 +924,7 @@ h4.modal-title {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: rgb(248, 248, 248);
+  background: #f7f7f7;
 }
 
 /* services-pages */
@@ -1003,8 +1004,10 @@ h4.modal-title {
 
 .services h3 {
   font-family: "Poppins", sans-serif;
-  color: black;
-  margin-bottom: 4rem;
+  color: #151515;
+  margin-bottom: 0rem;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 .dog-service img {
@@ -1014,12 +1017,14 @@ h4.modal-title {
 }
 
 .services .its-banner-grid h4 {
-  color: rgba(146, 75, 50);
+  color: #151515;
   margin: 2rem 0;
+  font-weight: 600;
+  font-size: 22px;
 }
 
 .services .its-banner-grid p {
-  color: black;
+  color: #777777;
 }
 
 .about .its-banner-grid h4 {
@@ -1054,12 +1059,21 @@ span.banner-icon {
   font-size: 14px;
   color: rgb(202, 201, 201);
   letter-spacing: 1.5px;
-  padding: 0px 55px;
+  padding: 0px 30px;
+}
+
+.catchy-phrase {
+  font-size: 16px;
+  color: #ff9d34;
+  display: block;
+  text-align: center;
+  font-style: italic;
 }
 
 .left-icon-grid {
   text-align: center;
   margin-bottom: 1em;
+  margin-top: 2em;
 }
 .its-banner-grid:hover span.banner-icon {
   color: #fff;
