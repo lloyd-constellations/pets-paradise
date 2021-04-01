@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 
 html,
 body {
@@ -6,7 +7,7 @@ body {
   margin: 0;
   background: #fff;
   letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body a {
@@ -36,7 +37,6 @@ input[type="submit"] {
   -o-transition: 0.5s all;
   -ms-transition: 0.5s all;
   letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
 }
 select,
 input[type="email"],
@@ -45,7 +45,6 @@ input[type="password"],
 input[type="button"],
 input[type="submit"],
 textarea {
-  font-family: "Poppins", sans-serif;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -61,7 +60,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
   font-weight: 600;
   color: #151515;
@@ -71,7 +70,6 @@ p {
   margin: 0;
   padding: 0;
   letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
   color: #777;
 }
 
@@ -221,13 +219,22 @@ a.navbar-brand {
   overflow: hidden;
   position: relative;
   margin: 10.5rem auto 0 auto;
-  height: 80vh;
+  height: 90vh;
   width: auto;
 }
 .mySlides {
   display: none;
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+}
+.slide-zero {
+  background: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(../images/global-pet-relocation-home-bg.png) center no-repeat;
+  background-size: cover;
+  /* position: relative; */
 }
 .slide-one {
   background: url(../images/daycare-bg.png);
@@ -507,10 +514,8 @@ a {
   color: #fff;
   font-size: 5.5em;
   letter-spacing: 3px;
-  font-family: "Poppins", sans-serif;
 }
 .slider-info p {
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
   letter-spacing: 3px;
   padding: 16px 0px;
@@ -735,17 +740,11 @@ h4.modal-title {
   align-items: center;
   justify-content: center;
 }
-
-.banner-agileits-btm {
-  border-radius: 30px;
-}
-
 .about-top-grid h2 {
   font-weight: 600;
   font-size: 39px;
   letter-spacing: 1px;
   color: #000;
-  font-family: "Poppins", sans-serif;
   margin-bottom: .9rem;
 }
 .about-para p {
@@ -782,11 +781,13 @@ h4.modal-title {
   background-position: 50% 50%;
 }
 .banner-agileits-btm {
-  background: url(../images/video.jpg) no-repeat 0px 0px;
-  background-size: cover;
+  /* background: url(../images/video.jpg) no-repeat 0px 0px; */
+  background: url(../images/cat.png) no-repeat 0px 0px;
+  background-size: contain;
   padding: 0;
   min-height: 395px;
   text-align: center;
+  /* border-radius: 30px; */
 }
 .button {
   padding: 11em 0em 0em;
@@ -884,7 +885,6 @@ h4.modal-title {
 
 .send-email {
   font-size: 25px;
-  font-family: "Poppins", sans-serif;
 }
 
 /*--Services-- */
@@ -904,7 +904,6 @@ h4.modal-title {
   padding: 1rem;
   background: #ff661e;
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
   border: none;
   outline: none;
   color: #fafafa;
@@ -968,13 +967,11 @@ h4.modal-title {
 }
 
 .title-heading h2 {
-  font-family: "Poppins", sans-serif;
   margin-bottom: 0.5rem;
 }
 
 .services-page-description h2 {
   font-size: 2rem;
-  font-family: "Poppins", sans-serif;
   margin-bottom: 2rem;
   background: linear-gradient(
     to right,
@@ -1005,9 +1002,9 @@ h4.modal-title {
 }
 
 .services h3 {
-  font-family: "Poppins", sans-serif;
   color: #151515;
   margin-bottom: 0rem;
+  margin-top: 2rem;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -1052,7 +1049,6 @@ span.banner-icon {
   color: rgb(255, 255, 255);
   text-align: center;
   letter-spacing: 2px;
-  font-family: "Poppins", sans-serif;
 }
 
 .its-banner-grid p {
@@ -1105,7 +1101,6 @@ span.banner-icon {
 }
 .portfolio .title {
   color: "#fafafa";
-  font-family: "Poppins", sans-serif;
 }
 .gallery-body {
   background: rgba(146, 75, 50);
@@ -1230,7 +1225,6 @@ h2.resp-accordion {
 }
 
 .client-list figcaption {
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: #000;
 }
@@ -1512,7 +1506,6 @@ blockquote {
   color: #000;
   padding-top: 7px;
   margin-bottom: 3rem;
-  font-family: "Poppins", sans-serif;
 }
 
 .sub-para-flex {
@@ -1638,7 +1631,6 @@ footer p a:hover {
   .title {
     font-size: 36px;
     margin-bottom: 24px;
-    font-family: "Poppins", sans-serif;
   }
   .about,
   .services,
