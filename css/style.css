@@ -101,7 +101,7 @@ ul {
   color: #fff;
 }
 .buttom-w3 {
-  background: #f7f7f7;
+  background: #dfdede;
 }
 /*--//banner-- */
 /*-- header --*/
@@ -218,8 +218,6 @@ a.navbar-brand {
 .slideshow-container {
   overflow: hidden;
   position: relative;
-  margin: 15vh auto 0 auto;
-  margin: 15vh auto 0 auto;
   margin: 15vh auto 0 auto;
   height: 100vh;
   width: auto;
