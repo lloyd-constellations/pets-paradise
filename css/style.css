@@ -70,7 +70,7 @@ p {
   margin: 0;
   padding: 0;
   letter-spacing: 1px;
-  color: #777;
+  color: rgb(0, 0, 0);
 }
 
 ul {
@@ -218,8 +218,10 @@ a.navbar-brand {
 .slideshow-container {
   overflow: hidden;
   position: relative;
-  margin: 10.5rem auto 0 auto;
-  height: 90vh;
+  margin: 15vh auto 0 auto;
+  margin: 15vh auto 0 auto;
+  margin: 15vh auto 0 auto;
+  height: 100vh;
   width: auto;
 }
 .mySlides {
@@ -784,6 +786,7 @@ h4.modal-title {
   /* background: url(../images/video.jpg) no-repeat 0px 0px; */
   background: url(../images/cat.png) no-repeat 0px 0px;
   background-size: contain;
+  background-position: center;
   padding: 0;
   min-height: 395px;
   text-align: center;
@@ -1023,7 +1026,7 @@ h4.modal-title {
 }
 
 .services .its-banner-grid p {
-  color: #777777;
+  color: #000000;
 }
 
 .about .its-banner-grid h4 {
