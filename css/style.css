@@ -827,17 +827,19 @@ h4.modal-title {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  min-height: 70vh;
+  min-height: 99vh;
   max-width: 95vw;
   margin: auto;
 }
 
 .team img {
-  width: 60vw;
+  width: 50vw;
+  height: auto;
 }
 
 .team .title {
   color: #ff661e;
+  width: 30vw
 }
 
 /* Opportunities */
