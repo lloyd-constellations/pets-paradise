@@ -101,7 +101,7 @@ ul {
   color: #fff;
 }
 .buttom-w3 {
-  background: #dfdede;
+  background: #f7f7f7;
 }
 /*--//banner-- */
 /*-- header --*/
@@ -232,7 +232,7 @@ a.navbar-brand {
       rgba(0, 0, 0, 0.2) 0%,
       rgba(0, 0, 0, 0.2) 100%
     ),
-    url(../images/global-pet-relocation-home-bg.png) center no-repeat;
+    url(../images/services-bg.jpg) center no-repeat;
   background-size: cover;
   /* position: relative; */
 }
@@ -851,26 +851,25 @@ h4.modal-title {
   justify-content: space-evenly;
   margin: 2rem 0 auto;
   padding: 5rem 0;
-  background: #ff661e;
+  background: #f7f7f7;
 }
 
 .opportunities p {
-  color: #fafafa;
   margin: 2rem 0;
 }
 
 .opportunities h3 {
-  color: #fafafa;
+  color: #000;
   font-size: 5rem;
   font-weight: 500;
 }
 
 .opportunities-content {
   max-width: 75vw;
-  background: rgba(146, 75, 50);
+  background: #ffff;
   padding: 7rem;
   margin: 2rem auto;
-  color: #fafafa;
+  color: #000;
 }
 
 .opportunities-content ul li {
@@ -892,7 +891,7 @@ h4.modal-title {
 
 /*--Services-- */
 .services-intro {
-  background: rgba(146, 75, 50);
+  background: #f7f7f7;
   min-height: 50vh;
   display: flex;
   align-items: center;
@@ -918,7 +917,7 @@ h4.modal-title {
 }
 
 .services-intro p {
-  color: #fafafa;
+  color: rgb(34, 34, 34);
   font-size: 20px;
 }
 
@@ -979,7 +978,7 @@ h4.modal-title {
   background: linear-gradient(
     to right,
     rgba(249, 105, 14, 1) 0%,
-    rgb(153, 87, 51) 100%
+    rgb(249, 105, 14, 1) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -991,13 +990,13 @@ h4.modal-title {
 }
 
 .services.about {
-  background: rgba(146, 75, 50);
+  background: #f7f7f7;
 }
 
 .fa-hourglass-start,
 .fa-heart {
   font-size: 40px;
-  color: #ffffff;
+  color: rgba(146, 75, 50);
 }
 
 .fa-heart {
@@ -1026,7 +1025,7 @@ h4.modal-title {
 }
 
 .services .its-banner-grid p {
-  color: #000000;
+  color: #000;
 }
 
 .about .its-banner-grid h4 {
@@ -1034,7 +1033,7 @@ h4.modal-title {
 }
 
 .about .its-banner-grid p {
-  color: #fafafa;
+  color: #000;
 }
 
 span.banner-icon {
@@ -1532,10 +1531,7 @@ blockquote {
 }
 
 .sub-para a i:hover {
-  font-size: 40px;
-  letter-spacing: 30px;
   color: #ff661e;
-  line-height: 27px;
 }
 
 .sub-para p {
