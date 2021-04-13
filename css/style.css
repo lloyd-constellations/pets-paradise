@@ -739,6 +739,7 @@ h4.modal-title {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #f7f7f7;
 }
 .about-top-grid h2 {
   font-weight: 600;
@@ -760,13 +761,13 @@ h4.modal-title {
   list-style: none;
 }
 .arrow ul li p {
-  display: inline-block;
+  display: inline;
   font-size: 15px;
   letter-spacing: 2px;
 }
 .arrow ul li span {
   display: inline-block;
-  padding: 0px 14px 19px 0px;
+  padding: 9px 9px 19px 0px;
 }
 
 .arrow span.dog-arrow {
@@ -821,6 +822,33 @@ h4.modal-title {
 }
 
 /*--// about-- */
+
+/* Why pets paradise */
+.why-item {
+  width: 90vw;
+  min-height: 90vh;
+  padding: 3rem 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.why-img {
+  flex: 1;
+}
+.why-img img{
+  width: 75%;
+}
+
+.why-description {
+  flex: 1;
+}
+
+.why-description h2 {
+  font-size: 36px;
+  margin-bottom: .9rem;
+}
 
 /* Team */
 .team {
@@ -940,7 +968,7 @@ h4.modal-title {
 }
 
 .has-margin-right {
-  margin: 0 3rem 0 0;
+  margin: 0 4rem 0 0;
 }
 
 .services-page-item {
