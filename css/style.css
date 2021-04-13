@@ -219,7 +219,7 @@ a.navbar-brand {
   overflow: hidden;
   position: relative;
   margin: 15vh auto 0 auto;
-  height: 100vh;
+  height: 80vh;
   width: auto;
 }
 .mySlides {
@@ -2237,6 +2237,9 @@ footer p a:hover {
   }
 }
 @media (max-width: 480px) {
+  .slideshow-container{
+    height: 60vh;
+  }
   .header-outs {
     min-height: 405px;
   }
