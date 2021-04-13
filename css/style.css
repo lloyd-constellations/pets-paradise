@@ -1831,6 +1831,14 @@ footer p a:hover {
   }
 }
 @media (max-width: 991px) {
+  .why-item{
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .why-img {
+    align-self: center;
+    margin: 0;
+  }
   .dog-service img {
     margin-top: 6rem;
   }
