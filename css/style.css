@@ -232,7 +232,7 @@ a.navbar-brand {
       rgba(0, 0, 0, 0.2) 0%,
       rgba(0, 0, 0, 0.2) 100%
     ),
-    url(../images/services-bg.jpg) center no-repeat;
+    url(../images/about-bg.jpg) center no-repeat;
   background-size: cover;
   /* position: relative; */
 }
