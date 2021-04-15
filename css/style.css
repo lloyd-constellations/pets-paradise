@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap");
 
 html,
 body {
@@ -746,7 +746,7 @@ h4.modal-title {
   font-size: 39px;
   letter-spacing: 1px;
   color: #000;
-  margin-bottom: .9rem;
+  margin-bottom: 0.9rem;
 }
 .about-para p {
   font-size: 15px;
@@ -837,7 +837,7 @@ h4.modal-title {
 .why-img {
   flex: 1;
 }
-.why-img img{
+.why-img img {
   width: 75%;
 }
 
@@ -847,7 +847,7 @@ h4.modal-title {
 
 .why-description h2 {
   font-size: 36px;
-  margin-bottom: .9rem;
+  margin-bottom: 0.9rem;
 }
 
 /* Team */
@@ -867,7 +867,7 @@ h4.modal-title {
 
 .team .title {
   color: #ff661e;
-  width: 30vw
+  width: 30vw;
 }
 
 /* Opportunities */
@@ -1040,6 +1040,8 @@ h4.modal-title {
 }
 
 .dog-service img {
+  width: 90px;
+  height: auto;
   background: #ff661e;
   padding: 2rem;
   border-radius: 30px;
@@ -1096,7 +1098,7 @@ span.banner-icon {
   display: block;
   text-align: center;
   font-style: italic;
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
 .left-icon-grid {
@@ -1831,7 +1833,7 @@ footer p a:hover {
   }
 }
 @media (max-width: 991px) {
-  .why-item{
+  .why-item {
     flex-direction: column-reverse;
     align-items: flex-start;
   }
@@ -1993,7 +1995,7 @@ footer p a:hover {
   }
   .about-top-grid h2 {
     font-size: 32px;
-    margin-bottom: .9rem;
+    margin-bottom: 0.9rem;
   }
   .arrow {
     margin: 0.9em 0em 0.2em;
@@ -2273,7 +2275,7 @@ footer p a:hover {
   }
 }
 @media (max-width: 480px) {
-  .slideshow-container{
+  .slideshow-container {
     height: 60vh;
   }
   .header-outs {
