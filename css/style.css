@@ -1149,17 +1149,20 @@ span.banner-icon {
 
 .header-outs.gallery {
   background: none;
-  min-height: 12rem;
+  min-height: 10rem;
+}
+.portfolio{
+  min-height: 90vh;
 }
 .header-outs.contact {
-  background: rgba(146, 75, 50);
+  background: #f7f7f7;
   min-height: 15vh;
 }
 .portfolio .title {
-  color: "#fafafa";
+  color: #000000;
 }
 .gallery-body {
-  background: rgba(146, 75, 50);
+  background: #f7f7f7;
 }
 .agileits-title h3 {
   font-size: 26px;
