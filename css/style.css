@@ -65,6 +65,22 @@ h6 {
   font-weight: 600;
   color: #151515;
 }
+/* .underline{
+  position: relative;
+ text-align: center;
+}
+.underline:after{
+  background-color: #ff661e;
+  bottom: -.9rem;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  width: 10rem;
+} */
 
 p {
   margin: 0;
@@ -824,6 +840,9 @@ h4.modal-title {
 /*--// about-- */
 
 /* Why pets paradise */
+/* .why-us{
+  
+} */
 .why-item {
   width: 90vw;
   min-height: 90vh;
@@ -833,7 +852,6 @@ h4.modal-title {
   align-items: center;
   justify-content: space-between;
 }
-
 .why-img {
   flex: 1;
 }
